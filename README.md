@@ -1,12 +1,22 @@
 **px-to-em**  -  Convert px to em or em to px
------------------------------------------------------
-Select text with vim and the enter the following to convert the pixels of your choosing to ems:
+==================================
+
+Installation
+------------------------
+### Pathogen Install
+1. Navigate to your **[VIM_ROOT]/bundle** directory in your local Vim setup
+2. git clone https://github.com/chiedojohn/px-to-em.git
+
+
+Usage
+-------------------------
+To convert the pixels to ems, select a block of text in visual mode and the enter the following :
 
 ```
 :Em
 ```
 
-Or the following to convert the ems of your choosing to pixels:
+Or enter the following to convert the ems to pixels:
 
 ```
 :Px
