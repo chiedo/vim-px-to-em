@@ -23,6 +23,18 @@ Or enter the following to convert the ems to pixels:
 :Px
 ```
 
+To convert all pixels in the file to ems:
+
+```
+:EmAll
+```
+
+Or to convert all ems in the file to pixels:
+
+```
+:PxAll
+```
+
 Add a bang (eg. :Px!) to any of the above command to bypass the prompts before each conversion.
 
 If you don't want to use the standard Base font of 16px, add the following to your ~/.vimrc
