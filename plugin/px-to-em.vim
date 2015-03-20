@@ -31,7 +31,7 @@ function! VimPxEmConvert(convert_to, skip_confirmation, start_line, end_line)
 
   " Self explanitory
   if a:convert_to == "px"
-    let search_for = '\v(\d+.\d+)em'
+    let search_for = '\v((0)?(\.)?\d+\.\d+)em'
     let conversion_function = "VimPxEmConvertEmToPx"
   elseif a:convert_to == "em"
     let search_for = '\v(\d+)px'
