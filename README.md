@@ -6,7 +6,7 @@ Installation
 ------------------------
 ### Pathogen Install
 1. Navigate to your **[VIM_ROOT]/bundle** directory in your local Vim setup
-2. git clone https://github.com/chiedojohn/px-to-em.git
+2. git clone https://github.com/chiedojohn/vim-px-to-em.git
 
 
 Usage
