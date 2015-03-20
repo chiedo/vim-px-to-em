@@ -24,9 +24,9 @@ function! VimPxEmConvert(convert_to, skip_confirmation, start_line, end_line)
   " If the skip confirmation value is set to 1, then don't prompt the user at
   " each change.
   if a:skip_confirmation
-    let modifiers= "g"
+    let modifiers= "ge"
   else
-    let modifiers= "gc"
+    let modifiers= "gec"
   endif
 
   " Self explanitory
