@@ -19,10 +19,10 @@ function! VimPxEmConvert(convert_to, skipconfirm, start_line, end_line, convert_
   endif
 
   if a:convert_to == "px"
-    let search_for = '\v(\d*.\d*)em'
+    let search_for = '\v(\d+.\d+)em'
     let replace_with = printf("%.0fpx", round(g:px_to_em_base*str2float(submatch(1))))
   elseif a:convert_to == "em"
-    let search_for = '\v(\d)px'
+    let search_for = '\v(\d+)px'
     let replace_with = printf("%0.3fem", 1.0/g:px_to_em_base*submatch(1))
   endif
 
