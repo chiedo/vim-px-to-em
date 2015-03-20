@@ -1,4 +1,4 @@
-**px-to-em**  -  Convert px to em or em to px
+**Vim-px-to-em**  -  Convert px to em or em to px
 ==================================
 Makes font-size unit conversion for your CSS stylesheets easy!
 
