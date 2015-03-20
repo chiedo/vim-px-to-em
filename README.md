@@ -35,6 +35,8 @@ Example:
 let g:px_to_em_base = 24
 ```
 
+Add a bang (eg. :Px!) to any of the above command to bypass the prompts before each conversion.
+
 License
 ------------------------------------------------------
 Distributed under the same terms as Vim itself. See :help license.
