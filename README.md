@@ -23,6 +23,8 @@ Or enter the following to convert the ems to pixels:
 :Px
 ```
 
+Add a bang (eg. :Px!) to any of the above command to bypass the prompts before each conversion.
+
 If you don't want to use the standard Base font of 16px, add the following to your ~/.vimrc
 
 ```
@@ -35,7 +37,6 @@ Example:
 let g:px_to_em_base = 24
 ```
 
-Add a bang (eg. :Px!) to any of the above command to bypass the prompts before each conversion.
 
 License
 ------------------------------------------------------
